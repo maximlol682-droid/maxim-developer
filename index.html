@@ -3,54 +3,44 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maxim Developer</title>
+<title>Maxim</title>
 <link rel="stylesheet" href="styles.css">
 <script src="script.js" defer></script>
 </head>
 <body>
-<div id="languagePicker" class="language-picker">
-  <h2>Select Language / اختر اللغة</h2>
-  <button id="enBtn">English</button>
-  <button id="arBtn">عربي</button>
-</div>
+<header class="hero">
+  <div class="logo">Maxim</div>
+  <h1>Maxim — Full Stack Developer</h1>
+  <p>Build modern web applications efficiently.</p>
+  <div class="cta">
+    <a href="#about" class="btn">About Me</a>
+    <a href="mailto:ahmednheri103@gmail.com" class="btn btn-ghost">Contact</a>
+  </div>
+</header>
 
-<div id="mainContent" class="hidden">
-  <header class="hero">
-    <div class="logo">💻 Maxim</div>
-    <h1 id="name">Maxim</h1>
-    <p id="subtitle">Full Stack Developer</p>
-    <div class="cta">
-      <a href="#about" class="btn">Learn More / تعرف علي</a>
-      <a href="mailto:ahmednheri103@gmail.com" class="btn btn-ghost">Contact / تواصل</a>
-    </div>
-  </header>
+<main>
+<section id="about" class="section card">
+  <h2>About Me</h2>
+  <p>I build scalable web applications, from UI to backend and deployment.</p>
+</section>
 
-  <main>
-    <section id="about" class="section card">
-      <h2 data-en="About Me" data-ar="من أنا">About Me</h2>
-      <p data-en="I build scalable web applications, from UI to backend and deployment."
-         data-ar="أبني تطبيقات ويب قابلة للتوسع، من الواجهة إلى الخادم والرفع.">I build scalable web applications...</p>
-    </section>
+<section id="skills" class="section card">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML / CSS / JS</li>
+    <li>React.js / Node.js</li>
+    <li>Responsive Design</li>
+  </ul>
+</section>
 
-    <section id="skills" class="section card">
-      <h2 data-en="Skills" data-ar="مهاراتي">Skills</h2>
-      <ul>
-        <li>HTML / CSS / JS</li>
-        <li>React.js / Node.js</li>
-        <li>Responsive Design</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="section card">
-      <h2 data-en="Projects" data-ar="مشاريعي">Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">Project 1</div>
-        <div class="project-card">Project 2</div>
-        <div class="project-card">Project 3</div>
-      </div>
-    </section>
-  </main>
-</div>
-
+<section id="projects" class="section card">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">Project 1</div>
+    <div class="project-card">Project 2</div>
+    <div class="project-card">Project 3</div>
+  </div>
+</section>
+</main>
 </body>
 </html>
